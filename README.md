@@ -6,7 +6,7 @@ I deploy a bunch of Lambdas to AWS to handle API requests. The runtime is Node 1
 
 AWS expects that each entry point should export a variable named 'handler': `export const handler = ...`
 
-When I use the Webpack 5 version as the body of a Lambda function, I get the following error
+Webpack 4 works perfectly. When I use the Webpack 5 version as the body of a Lambda function, I get the following error
 
 ```
 "errorMessage": "the-filename.handler is undefined or not exported",
