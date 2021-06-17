@@ -2,7 +2,9 @@ A reproducible example for Webpack 5 incompatibility / possible bug
 
 ## The issue
 
-I deploy a bunch of Lambdas to AWS to handle API requests. Each of my entry points should export a variable named 'handler': `export const handler = ...`
+I deploy a bunch of Lambdas to AWS to handle API requests. The runtime is Node 14.
+
+AWS expects that each entry point should export a variable named 'handler': `export const handler = ...`
 
 When I use the Webpack 5 version as the body of a Lambda function, I get the following error
 
