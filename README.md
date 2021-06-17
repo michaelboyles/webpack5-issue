@@ -1,4 +1,4 @@
-A reproducible example for Webpack 5 incompatibility / possible bug
+A reproducible example for Webpack 5 incompatibility / possible bug. Raised as [Webpack #13584](https://github.com/webpack/webpack/issues/13584)
 
 ## The issue
 
